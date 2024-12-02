@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	int a = 77;
+	clrscr();
+	printf("Int\t : %d\n",a);
+	printf("char\t : %c\n",a);
+	getch();
+}
