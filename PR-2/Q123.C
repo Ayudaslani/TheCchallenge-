@@ -16,13 +16,13 @@ void main()
 								?'B'
 								: (marks > 70  && marks  <= 80)
 											     ?'C'
-											     : (marks > 60 && marks <= 70)
+											     : (marks > 50 && marks <= 70)
 															 ?'D'
-															 : (marks > 50 && marks <= 60)
+															 : (marks > 33 && marks <= 50)
 																		     ?'E'
-																		      : (marks > 40 && marks <= 50)
-																						   ?'F'
-																						   : printf("sorry you are fail..");
+																		      : (marks < 33)
+																				   ?'F'
+																				   : printf("You are fail..");
 
 
 	fflush(stdin);
@@ -37,31 +37,36 @@ void main()
 			break;
 
 		case 'B':
-			printf("your grade is B .Well done!");
+
+			printf("your grade is B . Well done!");
 			break;
 		case 'C':
-			printf("your grade is C .Good job");
+
+			printf("your grade is C . Good job");
 			break;
 		case 'D':
-			printf("your grade is D .Good, but you could do better");
+
+			printf("your grade is D . Good, but you could do better");
 			break;
 		case 'E' :
-			printf("ypour grade is E. You passed,but you could do better");
+
+			printf("your grade is E. You passed,but you could do better");
 			break;
 		case 'F':
+
 			printf("Sorry,you failed");
 			break;
 
 
 	}
 
-	if(grade >= 'A' && grade <='D')
+	if(grade >= 'A' && grade <='E')
 	{
-		printf("Congratulation!You are eligible for The next level.");
+		printf(" Congratulation!You are eligible for The next level.");
 	}
 	else
 	{
-		printf("Please try aging next time ");
+		printf(" Please try aging next time ");
 	}
 
 	getch();
