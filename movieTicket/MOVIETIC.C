@@ -7,6 +7,7 @@ void main()
 	char name[20];
 	char mobile_no[10];
 	char address[50];
+
 	clrscr();
 
 
@@ -17,11 +18,11 @@ void main()
 	printf("\n");
 
 
-	printf("Enter your Name :                                                 \n");
+	printf("Enter your Name : ");
 	gets(name);
-	printf("Enter your mobile no :                                            \n");
+	printf("Enter your mobile no : ");
 	gets(mobile_no);
-	printf("Enter your Address   :                                            \n");
+	printf("Enter your Address   :  ");
 	gets(address);
 	printf("------------------------------------------------------------------\n");
 
@@ -8804,15 +8805,23 @@ void main()
 	}
 	clrscr();
 
+
+
 	printf("|--------------------------------------------------------------------|\n");
-	printf("|                    MOVIE TICKET                                    | \n");
+	printf("|                        MOVIE TICKET                                |\n");
 	printf("|--------------------------------------------------------------------|\n");
-	printf("|                                                     Rajans Chinema |\n");
-	printf("|%s                                                      |\n",name);
-	printf("|%s                                                       |\n",mobile_no);
-	printf("|%s                                                       |\n",address);
-	printf("|Total = %d                                               |\n",total);
-	printf("|Total + GST = %d                                         |\n",total+(18/100));
+	printf("|                                                                    |\n");
+       //	textcolor(12);
+       cprintf("|                                                       Rajans cinema|\n");
+	printf("|								     |\n");
+	printf("|                                                           NAME : %s|\n",name);
+	printf("|                                                                    |\n");
+	printf("|                                                      MOBILE_NO : %s|\n",mobile_no);
+	printf("|                                                                    |\n");
+	printf("|                                                        ADDRESS : %s|\n",address);
+	printf("|                                                                    |\n");
+	printf("|                          	                     Total + GST = %d|\n",total+(18/100));
+	printf("|                                                                    |\n");
 
 	printf("|--------------------------------------------------------------------|\n");
 
