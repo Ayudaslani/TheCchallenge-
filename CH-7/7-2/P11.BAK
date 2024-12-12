@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,j,s;
+	clrscr();
+	for()
+	{
+		for()
+		{
+
+		}
+		for(j=)
+		{
+
+
+		}
+	printf("\n");
+
+	}
+
+
+	getch();
+
+}
