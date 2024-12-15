@@ -2,26 +2,19 @@
 #include<conio.h>
 void main()
 {
-	int i,j,n,gap;
+	int i,j,n=1;
 	clrscr();
-
 	for(i=1; i<=5; i++)
 	{
-
-		n=i;
-		gap=4;
-		for(j=i; j>=1; j--)
+		n=j;
+		for(j=i; j<=1; j--)
 		{
-
 			printf("%d\t",n);
-			 n=n+gap;
-			 gap--;
+			n++;
 
 		}
-
-
-
 	printf("\n");
+
 
 	}
 
