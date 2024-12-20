@@ -22,16 +22,10 @@ main()
     
         for(int j=0; j<i; j++)
         {
-          if(a[i]==a[j])
+          if(a[i] == a[j])
           {
-          
-           printf("%d",a[i]);
+            
           }
-          else
-          {
-            printf("%d %d",a[i],a[j]);
-          }
-          
 
         }
        
