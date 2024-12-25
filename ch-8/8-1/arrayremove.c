@@ -1,38 +1,35 @@
-#include<stdio.h>
+#include <stdio.h>
 
 main()
 {
-    int size;
-    printf("Enter size of array :");
-    scanf("%d",&size);
+  int size;
+  int i, j;
+  printf("Enter size of array :");
+  scanf("%d", &size);
 
-    int a[size];
+  int a[size];
 
-    printf("\n Input Array :\n");
-    for(int i=0; i<size; i++)
+  printf("\n Input Array :\n");
+  for (int i = 0; i < size; i++)
+  {
+    printf("a[%d] = ", i);
+    scanf("%d", &a[i]);
+  }
+
+  for (int i = 0; i < size; i++)
+  {
+    for (int j = i + 1; j < size; j++)
     {
-        printf("a[%d] = ",i);
-        scanf("%d",&a[i]);
+      if (a[i] == a[j])
+      {
+        a[j] = '\0';
+      }
     }
-    //12 13 14 12 15
-
- int arr[size];
-    for(int i=0; i<size; i++)
-    {
-    
-        for(int j=0; j<i; j++)
-        {
-          if(a[i] == a[j])
-          {
-            
-          }
-
-        }
-       
-       
-    }
-   
-    
-
-
+  }
+  printf("\n output Array :\n");
+  for (int i = 0; i < size; i++)
+  {
+    if (a[i] != 0)
+      printf("%d", a[i]);
+  }
 }

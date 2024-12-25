@@ -1,40 +1,31 @@
-#include<stdio.h>
-main()
+#include <stdio.h>
+
+int main()
 {
-    int door = 50;
-    int count = 0, c=0, o=0;
+    int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50};
+    int isopen[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50};
+    int i, j;
+    int open = 0, close = 50;
 
-    for(int i=1; i<=10; i++)
+    for (int i = 1; i <= 1; i++)
     {
-        for(int j=1; j<=50; j++)
+
+        for (int j = 1; j <= 50; j++)
         {
-            if(j%i == 0)
+            if (a[j] % i == 0)
             {
-                count = count + o;
+               if(isopen[j] == 0)
+               {
                 
-                
-                printf("%d open door\n",j);
-
+               }
             }
             else
             {
-                  count = count + c;
-                
-                printf("%d close door\n",j);
+                open--;
+                close++;
             }
-            
         }
-       
-    
+        printf("\n\n");
     }
-    if(j%i == 0)
-            {
-                printf("%d close door\n",j);
-
-            }
-            else
-            {
-                printf("%d open door\n",j);
-            } 
-
+    printf("%d %d", open, close);
 }
