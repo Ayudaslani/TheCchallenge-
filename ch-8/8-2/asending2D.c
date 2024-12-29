@@ -44,4 +44,22 @@ main()
         }
         printf("\n");
     }
+
+    // for (int i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j < col; j++)
+    //     {
+    //         for (int k = j + 1; k < col; k++)
+    //         {
+    //             if (a[i][j] > a[i][k])
+    //             {
+    //                 int n = a[i][j];
+    //                 a[i][j] = a[i][k];
+    //                 a[i][k] = n;
+    //             }
+    //         }
+    //         printf("%d", a[i][j]);
+    //     }
+    //     printf("\n");
+    // }
 }

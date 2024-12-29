@@ -1,30 +1,22 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
+#include <stdio.h>
+
+main()
 {
-	int i,j;
-	clrscr();
+	int i, j;
 
-	for(i=1;  i<=6; i++)
+	for (i = 1; i <= 6; i++)
 	{
-		for(j=1; j<=5; j++)
+		for (j = 1; j <= 5; j++)
 		{
-		       if(i==1 || i==3 || j==1 || j==5)
-		       {
+			if (i == 1 || i == 3 || j == 1 || j == 5)
+			{
 				printf("* ");
-
-		       }
-		       else
-		       {
+			}
+			else
+			{
 				printf("  ");
-
-		       }
-
+			}
 		}
 		printf("\n");
-
 	}
-
-	getch();
-
 }
