@@ -17,37 +17,37 @@ main()
     // int cmp = strcmp(E1, Email);
     // int cmp1 = strcmp(P1, Password);
 
-    int cmp;
+    int cmpEmail;
 
     for (int i = 0; E1[i] != '\0', Email[i] != '\0'; i++)
     {
 
         if (E1[i] == Email[i])
         {
-            cmp = 0;
+            cmpEmail = 0;
         }
         else
         {
-            cmp = 1;
+            cmpEmail = 1;
             break;
         }
     }
-    int cmp1;
+    int cmpPassword;
     for (int i = 0; P1[i] != '\0', Password[i] != '\0'; i++)
     {
 
         if (P1[i] == Password[i])
         {
-            cmp1 = 0;
+            cmpPassword = 0;
         }
         else
         {
-            cmp1 = 1;
+            cmpPassword = 1;
             break;
         }
     }
 
-    if ((cmp == 0) && (cmp1 == 0))
+    if ((cmpEmail == 0) && (cmpPassword == 0))
     {
         printf("Login succsfully.");
     }

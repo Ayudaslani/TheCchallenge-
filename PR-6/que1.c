@@ -25,16 +25,16 @@ main()
     {
         if (str[i] == rev[i])
         {
-            ispalindrom = 1;
+            ispalindrom = 0;
         }
         else
         {
-            ispalindrom = 0;
+            ispalindrom = 1;
             break;
         }
     }
 
-    if (ispalindrom == 1)
+    if (ispalindrom == 0)
     {
         printf("%s is palindrom string", str);
     }

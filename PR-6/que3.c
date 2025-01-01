@@ -29,7 +29,7 @@ main()
             {
                 islower = 0;
             }
-            else if (password[i] >= '0' && password[i] <= '9')
+            else if ((password[i] >= '0' && password[i] <= '9'))
             {
                 isdigit = 0;
             }
@@ -40,7 +40,7 @@ main()
         }
     }
 
-    if ((isupper == 0) && (islower == 0) && (isdigit == 0) && (issymbol == 0))
+    if ((isupper == 0) && (islower == 0) && (isdigit == '0') && (issymbol == 0))
     {
         printf("Your password is Strong.");
     }
