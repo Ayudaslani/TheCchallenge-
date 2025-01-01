@@ -14,8 +14,8 @@ main()
     printf("Enter your password :");
     gets(P1);
 
-    // int cmp = strcmp(E1, Email);
-    // int cmp1 = strcmp(P1, Password);
+    // int cmpEmail = strcmp(E1, Email);
+    // int cmpPassword = strcmp(P1, Password);
 
     int cmpEmail;
 
