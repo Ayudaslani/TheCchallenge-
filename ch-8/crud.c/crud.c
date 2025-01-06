@@ -46,9 +46,7 @@ main()
                 a[i + 1] = a[i];
             }
             size++;
-
             a[pos] = value;
-
             break;
 
         case 2:
@@ -56,7 +54,6 @@ main()
             {
                 printf("%d ", a[i]);
             }
-
             break;
 
         case 3:
@@ -101,7 +98,6 @@ main()
             {
                 printf("%d ", a[i]);
             }
-
             break;
         case 5:
             break;
