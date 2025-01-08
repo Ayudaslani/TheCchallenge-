@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int Addition(int num1, int num2)
 {
@@ -28,6 +29,7 @@ void main()
     int res, num1, num2;
     do
     {
+
         printf("\n\nPress 1 for + \n");
         printf("Press 2 for - \n");
         printf("Press 3 for * \n");
@@ -40,8 +42,10 @@ void main()
         if (ch < 0 || ch > 5)
         {
             printf("Invalid choice.!!!\n");
+
             continue;
         }
+
         if (ch == 0)
         {
             break;
@@ -53,6 +57,7 @@ void main()
 
         printf("Enter the second number :");
         scanf("%d", &num2);
+        system("cls");
 
         printf("\n\n");
 
@@ -89,5 +94,6 @@ void main()
 
             break;
         }
+
     } while (ch != 0);
 }
