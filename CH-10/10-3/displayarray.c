@@ -1,13 +1,13 @@
 #include <stdio.h>
 int len, start;
-void Array(int size, int a[], int start, int len)
+void Array(int a[], int start, int size)
 {
-    if (start >= len)
+    if (start >= size)
     {
         return;
     }
     printf("%d ", a[start]);
-    Array(size, a, start + 1, len);
+    Array(a, start + 1, size);
 }
 void main()
 {
@@ -23,5 +23,5 @@ void main()
         scanf("%d", &a[i]);
     }
 
-    Array(size, a, start, len);
+    Array(a, 0, size);
 }
