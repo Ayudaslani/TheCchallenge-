@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+//#include<conio.h>
+ main()
 {
 	int i,j;
 	int crow,ccol;
-	clrscr();
+//	clrscr();
 	crow = (i + 1) / 2;
 	ccol = (j + 1) / 2;
 
@@ -27,7 +27,7 @@ void main()
 
 	}
 
-	getch();
+//	getch();
 
 
 }

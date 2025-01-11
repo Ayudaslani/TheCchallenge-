@@ -1,6 +1,33 @@
 {
     "files.associations": {
         "A.C": "cpp",
-        "U.C": "cpp"
+        "U.C": "cpp",
+        "LAST.C": "cpp",
+        "P10.C": "cpp",
+        "P11.C": "cpp",
+        "P12.C": "cpp",
+        "P13.C": "cpp",
+        "P14.C": "cpp",
+        "P15.C": "cpp",
+        "PATTERN1.C": "cpp",
+        "PATTREN1.C": "cpp",
+        "PATTREN3.C": "cpp",
+        "PATTREN4.C": "cpp",
+        "PATTREN5.C": "cpp",
+        "PATTREN6.C": "cpp",
+        "PATTREN7.C": "cpp",
+        "PATTREN8.C": "cpp",
+        "PATTREN9.C": "cpp",
+        "WITHOUTS.C": "cpp",
+        "P6.C": "cpp",
+        "P7.C": "cpp",
+        "P8.C": "cpp",
+        "P9.C": "cpp",
+        "PATTERN3.C": "cpp",
+        "PATTERN4.C": "cpp",
+        "PATTREN2.C": "cpp",
+        "P1.C": "cpp",
+        "P3.C": "cpp",
+        "P4.C": "cpp"
     }
 }

@@ -1,21 +1,22 @@
 #include <stdio.h>
 
-main()
+void main()
 {
     int size;
-
-    printf("Enter size :");
+    printf("Enter the size:");
     scanf("%d", &size);
-    int a[size];
 
+    int a[size];
+    int *ptr[size];
     for (int i = 0; i < size; i++)
     {
+        printf("a[%d] = ", i);
         scanf("%d", &a[i]);
     }
 
     for (int i = 0; i < size; i++)
     {
-        printf("%d ", a[i]);
+        ptr[i] = &a[i];
     }
 
     int n = size - 1;
@@ -26,9 +27,8 @@ main()
         a[n] = c;
     }
 
-    // printf("\n\n");
-    // for (int i = size - 1; i >= 0; i--)
-    // {
-    //     printf("%d ", a[i]);
-    // }
+    for (int i = 0; i < size; i++)
+    {
+        printf("%d\t", *ptr[i]);
+    }
 }
