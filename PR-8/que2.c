@@ -39,7 +39,7 @@ void main()
         }
         printf("\n");
     }
-    printf("\n");
+    
     int *ptr[row][col];
     for (int i = 0; i < row; i++)
     {
@@ -50,5 +50,5 @@ void main()
         printf("\n");
     }
 
-    cube(row, col, *ptr);
+    cube(row, col, ptr);
 }
