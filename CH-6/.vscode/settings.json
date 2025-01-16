@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "AGE.C": "cpp",
+        "ALPHBETS.C": "cpp",
+        "CHECK12N.C": "cpp",
+        "EVEN_ODD.C": "cpp",
+        "FOURNUMB.C": "cpp",
+        "NESTEDIF.C": "cpp",
+        "WITHOUT.C": "cpp",
+        "NESTEDTA.C": "cpp",
+        "TARNARY.C": "cpp",
+        "1TONFORL.C": "cpp",
+        "EXPLICIT.C": "cpp",
+        "IMPLICIT.C": "cpp",
+        "1.C": "cpp",
+        "P1.C": "cpp",
+        "P2.C": "cpp",
+        "P3.C": "cpp",
+        "P4.C": "cpp",
+        "P5.C": "cpp"
+    }
+}

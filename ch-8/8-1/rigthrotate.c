@@ -34,10 +34,11 @@ main()
 
         for (int j = 0; j < size; j++)
         {
+            int n = a[size - 1];
 
             a[j] = a[j + 1];
         }
-        int n = a[0];
+        
 
         a[size - 1] = n;
     }
