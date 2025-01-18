@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+//#include<conio.h>
+int main()
 {
 	int i,j,s;
-	clrscr();
+	//clrscr();
 
 	for(i=5; i>=1; i--)
 	{
@@ -23,6 +23,6 @@ void main()
 	printf("\n");
 	}
 
-	getch();
+	//getch();
 
 }

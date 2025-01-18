@@ -5,12 +5,11 @@ main()
 {
     char str1[50];
     char str2[50];
-    char name[50];
+    char name[50 + 50];
 
     printf("Enter the first string : ");
     gets(str1);
 
-    
     printf("Enter the second string : ");
     gets(str2);
 

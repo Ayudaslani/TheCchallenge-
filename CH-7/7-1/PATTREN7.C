@@ -1,21 +1,18 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
+#include <stdio.h>
+// #include<conio.h>
+int main()
 {
-	int i,j;
-	clrscr();
+	int i, j;
+	// clrscr();
 
-	for(i=100; i>=95; i--)
+	for (i = 100; i >= 95; i--)
 	{
-		for(j=i; j>=95; j--)
+		for (j = i; j >= 95; j--)
 		{
-			printf("%d\t",j);
-
+			printf("%d\t", j);
 		}
-	printf("\n");
-
+		printf("\n");
 	}
 
-	getch();
-
+	// getch();
 }

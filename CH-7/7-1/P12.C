@@ -1,30 +1,25 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
+#include <stdio.h>
+// #include<conio.h>
+int main()
 {
-	int i,j,n,gap;
-	clrscr();
+	int i, j, n, gap;
+	// clrscr();
 
-	for(i=1; i<=5; i++)
+	for (i = 1; i <= 5; i++)
 	{
 
-		n=i;
-		gap=4;
-		for(j=i; j>=1; j--)
+		n = i;
+		gap = 4;
+		for (j = i; j >= 1; j--)
 		{
 
-			printf("%d\t",n);
-			 n=n+gap;
-			 gap--;
-
+			printf("%d\t", n);
+			n = n + gap;
+			gap--;
 		}
 
-
-
-	printf("\n");
-
+		printf("\n");
 	}
 
-	getch();
-
+	// getch();
 }

@@ -4,7 +4,7 @@ main()
 {
     int size;
 
-    printf("Ente rthe size :");
+    printf("Ente the size :");
     scanf("%d", &size);
 
     int a[size];

@@ -26,7 +26,7 @@ main()
                 count++;
             }
         }
-        if (str[i] != '0')
+        if (str[i] == str[0])
         {
 
             printf("%c  :%d times  \n", str[i], count);

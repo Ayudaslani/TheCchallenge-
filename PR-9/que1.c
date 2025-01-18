@@ -8,7 +8,7 @@ void main()
     even = fopen("even_file.txt", "w");
     odd = fopen("odd_file.txt", "w");
 
-    if (even != NULL || odd != NULL)
+    if (even != NULL && odd != NULL)
     {
         printf("File is open ..\n");
 

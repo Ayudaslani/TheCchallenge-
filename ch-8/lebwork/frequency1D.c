@@ -21,6 +21,7 @@ main()
     }
 
     printf("\n\n");
+    // 1 2 3 1 2
     int count = 0;
     for (int i = 0; i < size; i++)
     {

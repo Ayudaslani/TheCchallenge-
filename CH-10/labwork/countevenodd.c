@@ -20,8 +20,13 @@ int isEven(int size, int a[])
         {
             even1++;
         }
+        else
+        {
+            odd++;
+        }
     }
     return even1;
+    
 }
 void main()
 {
