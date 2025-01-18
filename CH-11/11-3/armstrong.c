@@ -1,27 +1,31 @@
 #include <stdio.h>
 
+
+int isarm(int *num)
+{
+    int originalNum = *num;
+    int sum = 0;
+    while (originalNum != 0)
+    {
+        int rem = originalNum % 10;
+        sum = sum + (rem * rem * rem);
+        originalNum = originalNum / 10;
+    }
+    return (*num == sum);
+}
+
 void main()
 {
     int num;
     printf("Enter any number : ");
     scanf("%d", &num);
 
-    int sum = 0;
-    int n = num;
-
-    while (num != 0)
+    if (isarm(&num))
     {
-        int rem = num % 10;
-        sum = sum + (rem * rem * rem);
-        num = num / 10;
-    }
-
-    if (n == sum)
-    {
-        printf("%d is armstrong nummber  ", n);
+        printf("%d is armstrong nummber  ", num);
     }
     else
     {
-        printf("%d is not  armstrong nummber  ", n);
+        printf("%d is not  armstrong nummber  ", num);
     }
 }
